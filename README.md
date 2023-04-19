@@ -5,7 +5,7 @@ This is a basic inventory app for a blacksmith in Skyrim. It allows you to sort 
 ### Prerequisites
 + Node.js v10.0 or higher
 + PostgreSQL v9.6 or higher
-###Installing
+### Installing
 ***(NOTE)*** *This project requires a .env that is not provided to connect to database, this will be fixed in further versions*
 1. Clone the repository: *git clone https://github.com/<your-username>/skyrim-blacksmith-inventory.git*
 2. Install dependencies: *npm install*
