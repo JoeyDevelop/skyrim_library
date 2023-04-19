@@ -14,22 +14,66 @@ header {
   display: flex;
   justify-content: start;
   align-items: center;
-  background-color: #2C3639;
   grid-area: 1 / 1 / 2 / 2;
+  border-bottom: 1px solid black;
+  background-color: #2C3639;
 }
 
 main {
-  grid-area: 2 / 1 / 3 / 2;
+  grid-area: 2 / 1 / 3 / 2; 
   background-color: #3F4E4F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  gap: 5rem;
 }
 
-a {
-  color: #00B7FF;
+main>:nth-child(1)>button {
+  background: url(/images/skyrim_image_1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 316px 476px;
+}
+
+main>:nth-child(2)>button {
+  background: url(/images/skyrim_image_2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 316px 476px;
+}
+
+main>:nth-child(3)>button {
+  background: url(/images/skyrim_image_3.png);
+  background-repeat: no-repeat;
+  background-size: 316px 476px;
 }
 
 .title {
-  color: #DCD7C9;
+  color: #A27B5C;
   padding-left: 1rem;
   font-family: 'MedievalSharp', cursive;
   font-size: 2rem;
+}
+
+.category {
+  width: 20rem;
+  height: 30rem;
+  border-radius: 2rem;
+  padding: 0;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+
+.button>h2 {
+  margin: 0;
+  font-size: 2rem;
+  font-size: 3rem;
+  color: #DCD7C9;
+  font-family: 'MedievalSharp', cursive;
 }
