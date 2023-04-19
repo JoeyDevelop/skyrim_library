@@ -7,12 +7,13 @@ html
       header
          h1.title The Smithing Lizard
       main
-         .button
-            h2 Damage Type
-            button.category
-         .button
-            h2 Weapon Type
-            button.category
-         .button
-            h2 Handedness
-            button.category 
+         form(method="POST")
+            .button
+               h2 Damage Type
+               button.category(type="submit", name="action", value="/damage")
+            .button
+               h2 Weapon Type
+               button.category(type="submit", name="action", value="/weapon")
+            .button
+               h2 Handedness
+               button.category(type="submit", name="action", value="/handedness")
