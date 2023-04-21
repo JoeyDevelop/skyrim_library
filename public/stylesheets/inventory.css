@@ -5,6 +5,13 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+button[type="submit"] {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
 .head1 {
   grid-area: 1 / 1 / 2 / 2;
   display: flex;

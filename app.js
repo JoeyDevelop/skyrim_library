@@ -22,9 +22,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/', damageRouter);
-app.use('/', weaponRouter);
-app.use('/', handedRouter);
+app.use('/damage', damageRouter);
+app.use('/weapon', weaponRouter);
+app.use('/handedness', handedRouter);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

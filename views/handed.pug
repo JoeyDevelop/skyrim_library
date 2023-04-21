@@ -7,7 +7,9 @@ html
   body
     header
       .head1
-        input.backArrow(type="image", src="/icons/icons8-left-50.png", alt="Back Arrow") 
+        form(method="post") 
+          button(type="submit", name="action", value="/")
+            img(src="/icons/icons8-left-50.png", alt="Back Arrow")
       .head2
         h2 Sort By:
         select#choices(name="choices")

@@ -15,8 +15,10 @@ router.post('/', (req, res) => {
     res.redirect('/weapon');
   } else if (action === '/handedness') {
     res.redirect('/handedness');
+  } else if (action === '/') {
+    res.redirect('/');
   } else {
-    res.send('Invalid action');
+    res.send('Invalid action!');
   }
 });
 
