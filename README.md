@@ -18,3 +18,7 @@ Once the app is running, open your web browser and go to http://localhost:3000. 
 + Express-generator - A scaffolding tool for creating an Express application skeleton.
 + Pug - A template engine for Node.js.
 + PostgreSQL - A powerful, open-source relational database management system.
+
+### Credit
++ [Shopping Cart Icon](https://icons8.com/icons/set/cart)
++ [Back Arrow Icon](https://icons8.com/icons/set/back-arrow)
