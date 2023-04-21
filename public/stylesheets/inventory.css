@@ -1,0 +1,57 @@
+/* Medieval Font: font-family: 'MedievalSharp', cursive; */
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.head1 {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.head2 {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: 'MedievalSharp', cursive;
+  padding-bottom: 1rem;
+  gap: 0.7rem;
+  color: white;
+}
+
+.head2>h2 {
+  margin: 0;
+}
+
+.head3 {
+  grid-area: 1 / 3 / 2 / 4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.backArrow {
+  width: 4rem;
+  margin-left: 1rem;
+}
+
+.backArrow:hover {
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
+.shoppingCart {
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.shoppingCart:hover {
+  transform: scale(1.1);
+  transform-origin: center;
+}

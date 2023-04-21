@@ -2,6 +2,22 @@ doctype html
 html
   head
     title The Smithing Lizard
-    link(rel='stylesheet', href='/stylesheets/index.css')
+    link(rel='stylesheet', href='/stylesheets/template.css')
+    link(rel="stylesheet", href="/stylesheets/inventory.css")
   body
-    h1 Weapon
+    header
+      .head1
+        input.backArrow(type="image", src="/icons/icons8-left-50.png", alt="Back Arrow") 
+      .head2
+        h2 Sort By:
+        select#choices(name="choices")
+          option(value="sword") Sword
+          option(value="axe") Axe
+          option(value="mace") Mace
+          option(value="greatsword") Greatsword
+          option(value="Battleaxe") Battleaxe
+          option(value="warhammer") Warhammer
+          option(value="bow") Bow
+      .head3
+        input.shoppingCart(type="image", src="/icons/icons8-shopping-cart-48.png", alt="Shopping Cart")
+    main 
